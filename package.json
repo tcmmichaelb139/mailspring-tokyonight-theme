@@ -1,0 +1,13 @@
+{
+  "name": "Tokyonight",
+  "title": "Tokyonight Theme",
+  "displayName": "Tokyonight Storm",
+  "theme": "ui",
+  "version": "0.1.0",
+  "description": "Tokyonight theme Mailspring (https://github.com/enkia/tokyo-night-vscode-theme)",
+  "license": "MIT",
+  "engines": {
+    "mailspring": "*"
+  }
+}
+

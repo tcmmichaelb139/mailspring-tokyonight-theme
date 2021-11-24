@@ -8,44 +8,44 @@
 @gray: darken(@gray-base, 33.5%);
 @gray-light: darken(@gray-base, 46.7%);
 @gray-lighter: darken(@gray-base, 92.5%);
-@white: #0a0a0a;
+@white: #1a1b26;
 
 @accent-primary: #bb9af7;
-@accent-primary-dark: darken(@accent-primary, 10%);
+@accent-primary-dark: #bb9af7;
 
 @background-primary: #24283b;
 @background-off-primary: #24283b;
-@background-secondary: darken(@background-primary, 20%);
-@background-tertiary: darken(@background-primary, 40%);
+@background-secondary: #1a1d2b;
+@background-tertiary: #1a1d2b;
 
-@border-color-primary: lighten(@background-primary, 10%);
+@border-color-primary: @background-primary
 @border-color-secondary: lighten(@background-secondary, 10%);
 @border-color-tertiary: lighten(@background-tertiary, 10%);
 @border-color-divider: @border-color-secondary;
 
 @text-color: #a9b1d6;
-@text-color-subtle: fadeout(@text-color, 20%);
-@text-color-very-subtle: fadeout(@text-color, 40%);
+@text-color-subtle: @text-color;
+@text-color-very-subtle: @text-color;
 @text-color-inverse: #a9b1d6;
-@text-color-inverse-subtle: fadeout(@text-color-inverse, 20%);
-@text-color-inverse-very-subtle: fadeout(@text-color-inverse, 50%);
+@text-color-inverse-subtle: @text-color;
+@text-color-inverse-very-subtle: @text-color;
 @text-color-heading: #565f89;
 
-@text-color-link: #ffffff;
-@text-color-link-hover: darken(@text-color-link, 10%);
+@text-color-link: #7aa2f7;
+@text-color-link-hover: #7291f6;
 @text-color-link-active: @accent-primary-dark;
 
 @btn-default-bg-color: lighten(@background-primary, 5%);
-@dropdown-default-bg-color: #1a1b26;
+@dropdown-default-bg-color: @background-secondary;
 
-@input-bg: #1a1b26;
+@input-bg: @background-secondary;
 @input-border: @border-color-divider;
 
-@list-bg: darken(@background-primary, 20%);
+@list-bg: @background-primary;
 @list-border: #24283b;
 @list-selected-color: #ffffff;
 @list-focused-color: #24283b;
 
 @toolbar-background-color: darken(@background-primary, 20%);
-@panel-background-color: darken(@background-primary, 20%);
+@panel-background-color: @background-secondary;
 
